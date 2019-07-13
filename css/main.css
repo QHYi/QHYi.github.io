@@ -184,7 +184,7 @@ th {
 }
 ::selection {
   background: #f00;
-  color: #f5f5f5;
+  color: #f00;
 }
 body {
   position: relative;
@@ -979,7 +979,7 @@ pre .javascript .function {
 .pagination {
   margin: 120px 0 40px;
   text-align: center;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f00;
 }
 .page-number-basic,
 .pagination .prev,
@@ -1100,7 +1100,7 @@ pre .javascript .function {
 }
 .headband {
   height: 3px;
-  background: #000;
+  background: #f00;
 }
 .site-meta {
   margin: 0;
@@ -1116,11 +1116,11 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #f00;
-  background: #222;
+  background: #555;
   border-bottom: none;
 }
 .brand:hover {
-  color: #f00;
+  color: $white;
 }
 .logo {
   display: inline-block;
@@ -1132,14 +1132,14 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
-  font-size: 13px;
-  color: #000;
+  font-size: 18px;
+  color: #fc6423;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1213,7 +1213,7 @@ pre .javascript .function {
   transition-delay: 0s;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #0684bd;
+  border-bottom-color: #f00;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -1834,7 +1834,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c6f952;
+  background: #818a69;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1872,7 +1872,7 @@ pre .javascript .function {
   color: #f00;
 }
 .sidebar-nav li:hover {
-  color: #f5f5f5;
+  color: #f00;
 }
 .page-post-detail .sidebar-nav-toc {
   padding: 0 5px;
@@ -1918,7 +1918,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: all;
-  color: #999;
+  color: #f00;
   border-bottom-color: #555;
 }
 .post-toc ol a:hover {
