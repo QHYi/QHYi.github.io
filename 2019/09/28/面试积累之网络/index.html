@@ -105,18 +105,18 @@
 
 
 
-<meta name="description" content="今天做到一个题目，需要用到MD5的16位加密，而不是默认的32位加密。 简单介绍md5()语法:md5(string,[,bool]) 参数:第一个参数string表示待处理的字符串，第二个参数bool为可选参数，可选TRUE或者FALSE，默认为FALSE；False表示返回32位的十六进制的字符串，TRUE表示返回16位的二进制数。 历程本来我是想找python的加密方法的，但是python只">
+<meta name="description" content="arp协议分类1.普通arp(正向arp)功能介绍：通过ip地址获得MAC地址工作过程：网络设备A发送数据包给网络设备B，数据包需要填写A，B的源目ip地址和源目MAC地址，这时候会在本地的ARP缓存表查询B的MAC地址，查询不到的话就会发ARP        请求包以广播的形式在局域网中散开，B收到到核实目的IP地址是自己本地的IP地址就会以单播方式发送ARP回应包给A，ARP回应包记录了B的M">
 <meta name="keywords" content="记录 分享">
 <meta property="og:type" content="article">
-<meta property="og:title" content="16进制二字符输出MD5">
-<meta property="og:url" content="http://yoursite.com/2019/09/04/16进制二字符输出MD5/index.html">
+<meta property="og:title" content="面试积累之网络">
+<meta property="og:url" content="http://yoursite.com/2019/09/28/面试积累之网络/index.html">
 <meta property="og:site_name" content="QHYi&#39;s Blog">
-<meta property="og:description" content="今天做到一个题目，需要用到MD5的16位加密，而不是默认的32位加密。 简单介绍md5()语法:md5(string,[,bool]) 参数:第一个参数string表示待处理的字符串，第二个参数bool为可选参数，可选TRUE或者FALSE，默认为FALSE；False表示返回32位的十六进制的字符串，TRUE表示返回16位的二进制数。 历程本来我是想找python的加密方法的，但是python只">
+<meta property="og:description" content="arp协议分类1.普通arp(正向arp)功能介绍：通过ip地址获得MAC地址工作过程：网络设备A发送数据包给网络设备B，数据包需要填写A，B的源目ip地址和源目MAC地址，这时候会在本地的ARP缓存表查询B的MAC地址，查询不到的话就会发ARP        请求包以广播的形式在局域网中散开，B收到到核实目的IP地址是自己本地的IP地址就会以单播方式发送ARP回应包给A，ARP回应包记录了B的M">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-09-04T11:13:27.145Z">
+<meta property="og:updated_time" content="2019-09-28T13:25:48.807Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="16进制二字符输出MD5">
-<meta name="twitter:description" content="今天做到一个题目，需要用到MD5的16位加密，而不是默认的32位加密。 简单介绍md5()语法:md5(string,[,bool]) 参数:第一个参数string表示待处理的字符串，第二个参数bool为可选参数，可选TRUE或者FALSE，默认为FALSE；False表示返回32位的十六进制的字符串，TRUE表示返回16位的二进制数。 历程本来我是想找python的加密方法的，但是python只">
+<meta name="twitter:title" content="面试积累之网络">
+<meta name="twitter:description" content="arp协议分类1.普通arp(正向arp)功能介绍：通过ip地址获得MAC地址工作过程：网络设备A发送数据包给网络设备B，数据包需要填写A，B的源目ip地址和源目MAC地址，这时候会在本地的ARP缓存表查询B的MAC地址，查询不到的话就会发ARP        请求包以广播的形式在局域网中散开，B收到到核实目的IP地址是自己本地的IP地址就会以单播方式发送ARP回应包给A，ARP回应包记录了B的M">
 
 
 
@@ -146,13 +146,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/09/04/16进制二字符输出MD5/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/28/面试积累之网络/">
 
 
 
 
 
-  <title>16进制二字符输出MD5 | QHYi's Blog</title>
+  <title>面试积累之网络 | QHYi's Blog</title>
   
 
 
@@ -287,7 +287,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/04/16进制二字符输出MD5/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/面试积累之网络/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="QHYi">
@@ -304,7 +304,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">16进制二字符输出MD5</h1>
+          <h1 class="post-title" itemprop="name headline">面试积累之网络</h1>
         
 
         <div class="post-meta">
@@ -316,8 +316,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-04T19:01:12+08:00">
-                2019-09-04
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-28T20:23:32+08:00">
+                2019-09-28
               </time>
             
 
@@ -354,12 +354,26 @@
       
 
       
-        <p>今天做到一个题目，需要用到MD5的16位加密，而不是默认的32位加密。</p>
-<h3 id="简单介绍md5"><a href="#简单介绍md5" class="headerlink" title="简单介绍md5()"></a>简单介绍md5()</h3><p>语法:md5(string,[,bool])</p>
-<p>参数:第一个参数string表示待处理的字符串，第二个参数bool为可选参数，可选TRUE或者FALSE，默认为FALSE；False表示返回32位的十六进制的字符串，TRUE表示返回16位的二进制数。</p>
-<h3 id="历程"><a href="#历程" class="headerlink" title="历程"></a>历程</h3><p>本来我是想找python的加密方法的，但是python只有32位加密的。后来看看题目，用的是php语言，一想，我直接用php不就行了吗。</p>
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$str = <span class="string">"ffifdyop"</span>; </span></span><br><span class="line"><span class="php"><span class="keyword">echo</span> <span class="string">"The string: "</span>.$str.<span class="string">"&lt;br&gt;"</span>; </span></span><br><span class="line"><span class="php"><span class="keyword">echo</span> <span class="string">"TRUE - Raw 16 character binary format: "</span>.md5($str, <span class="keyword">TRUE</span>).<span class="string">"&lt;br&gt;"</span>; </span></span><br><span class="line"><span class="php"><span class="keyword">echo</span> <span class="string">"FALSE - 32 character hex number: "</span>.md5($str).<span class="string">"&lt;br&gt;"</span>; </span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
-
+        <h1 id="arp协议"><a href="#arp协议" class="headerlink" title="arp协议"></a>arp协议</h1><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>1.普通arp(正向arp)<br>功能介绍：通过ip地址获得MAC地址<br>工作过程：网络设备A发送数据包给网络设备B，数据包需要填写A，B的源目ip地址和源目MAC地址，这时候会在本地的ARP缓存表查询B的MAC地址，查询不到的话就会发ARP        请求包以广播的形式在局域网中散开，B收到到核实目的IP地址是自己本地的IP地址就会以单播方式发送ARP回应包给A，ARP回应包记录了B的MAC地址</p>
+<p>2.翻转arp(rarp-reverse)<br>功能介绍：通过MAC地址获得ip地址，和DHCP一样<br>用途：例如，一个电脑刚接入网络，没有IP地址就无法上网，此时它便会通过本地MAC地址，对外发送RARP Request广播请求，看看局域网里面是否有RARP Server，若Serv      er上面有关于此MAC地址的映射IP，则会向此电脑返回RARP Reply回应，电脑便获取了IP地址</p>
+<p>3.免费arp<br>功能介绍：查询想使用的ip地址是否在局域网中已被占用<br>报文介绍：源目ip都是写本机的ip，源MAC写本机的MAC，目的MAC写广播地址<br>用途：确定设备的ip是否与其他设备ip冲突，当其他设备接收到免费ARP时，就会核对是否与本机ip冲突，如果冲突了就会返回一个arp应答包告知ip地址已被占用<br>      设备改变物理地址时，可以通过免费arp报文通知其他设备更新arp表项</p>
+<p>4.逆向arp(iarp-inverse)<br>功能介绍：通过物理地址获得ip地址</p>
+<p>5.代理arp<br>功能介绍:路由器收到ARP request时，发现源目ip不在相同网段，就会饰演代理ARP角色，代为回答，告诉查询者它想要的MAC地址<br>跨网段查询MAC地址方法：主机设置了默认网关，当查询的对象在局域网外时，将查询任务交给网关<br>代理ARP过程：网段A的设备广播ARP request包，源MAC写自己的MAC地址，目的MAC写FFFF.FFFF.FFFF,网关收到后返回接口的MAC地址，A收到网关返回的ARP reply包后更新           自己的ARP缓存表，于是A发出去的包都要通过网关路由器转发，网关路由器再在从网段B中广播得到B的MAC地址</p>
+<h3 id="RARP与IARP"><a href="#RARP与IARP" class="headerlink" title="RARP与IARP"></a>RARP与IARP</h3><p>参考<a href="https://zhuanlan.zhihu.com/p/29081692" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/29081692</a></p>
+<h1 id="OSPF"><a href="#OSPF" class="headerlink" title="OSPF"></a>OSPF</h1><p>当OSPF邻居建立的过程之中，路由器在和邻居达到完全邻接关系之前，要经过几个状态。这些状态在OSPF RFC2328有相关的定义，这些状态分别是Down, Attempt, Init, 2-Way, Exstart, Exchange, Loading和Full</p>
+<h3 id="8种状态"><a href="#8种状态" class="headerlink" title="8种状态"></a>8种状态</h3><p>1.Down<br>这是第一个OSPF邻居状态，在这个状态下路由器没有从邻居那收到任何信息（包括hello包），不过在这个状态下，路由器可以主动发出hello包给自己的邻居。<br>当路由器之间是Full状态的时候，如果在RouterDeadInterval时间段内（4倍的默认HelloInterval）没有从邻居收到任何hello包，或者手工配置的邻居信息被移除，那么邻居状态会从Full变为Down.</p>
+<p>2.Attempt<br>Attempt状态仅仅存在与NBMA网络中手工配置邻居的情况下。在这个状态下，路由器发送单播的hello包给邻居而且在dead interval超时之前没有收到邻居发过来的hello包。</p>
+<p>3.Init<br>Init状态说明了路由器已经收到了来自邻居发送的hello包，但是hello包中没有包含发送者的RID。当路由器从邻居接受hello包时，封包里面应该包含发送的RID信息，以确保这是一个可认知的hello包。</p>
+<ol start="4">
+<li>2-Way<br>2-Way状态说明了两台路由器之间已经建立了双向的链接，每一个路由器都已经收到了对方的hello包。这个状态发生在路由器收到了一个包含自己Router ID的hello包。在这个状态下，路由器决定是否要去跟邻居建立临接关系。在广播和NBMA网络类型中，一个路由器仅与designated router (DR) 和 backup designated router (BDR)建立Full状态关系，而和其他路由器最终停留在2-way状态。在点对点和电对多点网络类型中，路由器和所有相连接的路由器最终都达到Full状态。<br>在2-Way状态的结束之前，广播网络和NBMA网络类型中的DR和BDR选举出来。<br>注意：在init状态下接受到邻居发来的Database Descriptor (DBD)包也会导致路由器转变成2-way状态。</li>
+</ol>
+<p>5.Exstart<br>一旦DR和BDR选举出来，真正的链路状态信息交换才会发生在路由器和DR，BDR之间。<br>在Exstart状态下，路由器和它的DR, BDR建立了一种master-slave的关系并且选择一个初始的sequence number来形成临接。拥有更高的Router ID的路由器将会成为master并且开始交换信息，同时master也是唯一一个可以增加sequence number的路由器。需要注意的是，逻辑上可以认为DR/BDR中拥有更高的Router ID的一个可以成为master。但是请记住，DR/BDR的选举可能会因为手工配置了priority而不一样，不仅仅依赖与Router ID。因此有可能DR会在这个状态下充当slave状态。</p>
+<p>6.Exchange<br>在Exchange状态下，OSPF路由器交换database descriptor (DBD)包。DBD包含了链路状态通告(LSA)头部文件，并且描述了整个链路状态数据库的内容。每一个DBD报文都含有一个sequence number，并且这个号码会每一次被master增加。在Exchange状态下，路由器同时会发送链路状态请求报文（LSR）和链路状态更新报文（LSU）。接收到的DBD报文会和路由器链路状态数据库进行比较以确保是否有任何新的或者更多的链路状态信息是可用的。</p>
+<p>7.Loading<br>在Loading状态下，发生的是真正的链路状态信息交换。基于DBD报文所提供的信息，路由器会发送链路状态请求报文。邻居会在链路状态更新报文中提供相应的链路状态信息。在临接关系下，如果一个路由器收到了一个过期或者丢失了LSA，它会发送一个LSR请求相应的LSA。所有链路状态更新数据包都会在这个状态下达到同步。</p>
+<p>8.Full<br>在Full状态下，路由器和其邻居会达到完全临接状态。所有路由器和网络LSA都会交换并且路由器数据库达到同步。<br>Full状态是OSPF路由器的一个最常见的状态。如果一个路由器停留在另外一个状态，那么就说明了在路由器建立临接关系的过程中是存在问题的。唯一的例外是2-way状态，是在广播网络中常见的。在广播网络中，邻居之间（除了和DR，BDR之外）会最终处于2-way状态。</p>
+<h1 id="广播域和冲突域"><a href="#广播域和冲突域" class="headerlink" title="广播域和冲突域"></a>广播域和冲突域</h1><p>广播域：广播是一种信息传播方式，指网络中某一个设备同时向网络中所有其他设备发送数据，这个数据所能广播到的范围就是广播域。即，网络中能接收任一设备发出的广播帧的所有设备的集合，是OSI中的二层概念</p>
+<p>冲突域：连接在同一导线上的所用工作站的集合，或者说是同一物理网段上所有节点的集合或者以太网上竞争同一宽带节点集合。一个站点向另一个站点发初信号，能收到信号的站点就构成一个冲突域，冲突域是指会产生冲突的最小范围，它是OSI的一层概念。</p>
+<p>实例：集线器属于物理层，所有接口同属于一个冲突域、一个广播域；交换机属于数据链路层，每个接口是一个单独的冲突域，非VLAN型交换机的所有端口属于同一个广播域，若是VLAN型交换机，每个VLAN是一个广播域；路由器属于网络层，每个端口是一个单独的冲突域，也是一个单独的广播域。</p>
 
       
     </div>
@@ -384,8 +398,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/09/03/tmux的分屏使用/" rel="next" title="tmux的分屏使用">
-                <i class="fa fa-chevron-left"></i> tmux的分屏使用
+              <a href="/2019/09/28/面试积累之linux/" rel="next" title="面试积累之linux">
+                <i class="fa fa-chevron-left"></i> 面试积累之linux
               </a>
             
           </div>
@@ -393,10 +407,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/09/05/mysql注入姿势/" rel="prev" title="mysql注入姿势">
-                mysql注入姿势 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -510,7 +520,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单介绍md5"><span class="nav-number">1.</span> <span class="nav-text">简单介绍md5()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#历程"><span class="nav-number">2.</span> <span class="nav-text">历程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#arp协议"><span class="nav-number">1.</span> <span class="nav-text">arp协议</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分类"><span class="nav-number">1.0.1.</span> <span class="nav-text">分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RARP与IARP"><span class="nav-number">1.0.2.</span> <span class="nav-text">RARP与IARP</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#OSPF"><span class="nav-number">2.</span> <span class="nav-text">OSPF</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#8种状态"><span class="nav-number">2.0.1.</span> <span class="nav-text">8种状态</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#广播域和冲突域"><span class="nav-number">3.</span> <span class="nav-text">广播域和冲突域</span></a></li></div>
             
 
           </div>
