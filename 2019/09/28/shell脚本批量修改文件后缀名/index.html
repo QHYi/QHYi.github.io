@@ -105,18 +105,18 @@
 
 
 
-<meta name="description" content="1.判断一个数是否x为奇数，可以判断x&amp;amp;1是否为1，是的话x就是奇数 2.判断一个数是x否为偶数，可以先除以2再乘以2(x&amp;gt;&amp;gt;1&amp;lt;&amp;lt;1)判断是否等于x，等于的话就是偶数">
+<meta name="description" content="12345678910111213141516171819#!/bin/bash#接受用户传入的参数read -p &quot;old extension:&quot; oldextread -p &quot;new extension:&quot; newextread -p &quot;The directory:&quot; dircd $dirfor file in $(ls $dir | grep .$oldext)	do	name=$(ls $">
 <meta name="keywords" content="记录 分享">
 <meta property="og:type" content="article">
-<meta property="og:title" content="算法刷题积累">
-<meta property="og:url" content="http://yoursite.com/2019/09/22/算法刷题积累/index.html">
+<meta property="og:title" content="shell脚本批量修改文件后缀名">
+<meta property="og:url" content="http://yoursite.com/2019/09/28/shell脚本批量修改文件后缀名/index.html">
 <meta property="og:site_name" content="QHYi&#39;s Blog">
-<meta property="og:description" content="1.判断一个数是否x为奇数，可以判断x&amp;amp;1是否为1，是的话x就是奇数 2.判断一个数是x否为偶数，可以先除以2再乘以2(x&amp;gt;&amp;gt;1&amp;lt;&amp;lt;1)判断是否等于x，等于的话就是偶数">
+<meta property="og:description" content="12345678910111213141516171819#!/bin/bash#接受用户传入的参数read -p &quot;old extension:&quot; oldextread -p &quot;new extension:&quot; newextread -p &quot;The directory:&quot; dircd $dirfor file in $(ls $dir | grep .$oldext)	do	name=$(ls $">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-09-22T13:26:02.800Z">
+<meta property="og:updated_time" content="2019-09-28T04:51:20.691Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="算法刷题积累">
-<meta name="twitter:description" content="1.判断一个数是否x为奇数，可以判断x&amp;amp;1是否为1，是的话x就是奇数 2.判断一个数是x否为偶数，可以先除以2再乘以2(x&amp;gt;&amp;gt;1&amp;lt;&amp;lt;1)判断是否等于x，等于的话就是偶数">
+<meta name="twitter:title" content="shell脚本批量修改文件后缀名">
+<meta name="twitter:description" content="12345678910111213141516171819#!/bin/bash#接受用户传入的参数read -p &quot;old extension:&quot; oldextread -p &quot;new extension:&quot; newextread -p &quot;The directory:&quot; dircd $dirfor file in $(ls $dir | grep .$oldext)	do	name=$(ls $">
 
 
 
@@ -146,13 +146,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/09/22/算法刷题积累/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/28/shell脚本批量修改文件后缀名/">
 
 
 
 
 
-  <title>算法刷题积累 | QHYi's Blog</title>
+  <title>shell脚本批量修改文件后缀名 | QHYi's Blog</title>
   
 
 
@@ -287,7 +287,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/22/算法刷题积累/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/shell脚本批量修改文件后缀名/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="QHYi">
@@ -304,7 +304,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">算法刷题积累</h1>
+          <h1 class="post-title" itemprop="name headline">shell脚本批量修改文件后缀名</h1>
         
 
         <div class="post-meta">
@@ -316,8 +316,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-22T21:25:36+08:00">
-                2019-09-22
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-28T12:27:38+08:00">
+                2019-09-28
               </time>
             
 
@@ -354,8 +354,8 @@
       
 
       
-        <p>1.判断一个数是否x为奇数，可以判断x&amp;1是否为1，是的话x就是奇数</p>
-<p>2.判断一个数是x否为偶数，可以先除以2再乘以2(x&gt;&gt;1&lt;&lt;1)判断是否等于x，等于的话就是偶数</p>
+        <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#接受用户传入的参数</span></span><br><span class="line"><span class="built_in">read</span> -p <span class="string">"old extension:"</span> oldext</span><br><span class="line"><span class="built_in">read</span> -p <span class="string">"new extension:"</span> newext</span><br><span class="line"><span class="built_in">read</span> -p <span class="string">"The directory:"</span> dir</span><br><span class="line"><span class="built_in">cd</span> <span class="variable">$dir</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> $(ls <span class="variable">$dir</span> | grep .<span class="variable">$oldext</span>)</span><br><span class="line">	<span class="keyword">do</span></span><br><span class="line">	name=$(ls <span class="variable">$file</span> |cut -d. -f1)</span><br><span class="line">	mv <span class="variable">$file</span> <span class="variable">$&#123;name&#125;</span>.<span class="variable">$newext</span></span><br><span class="line">	<span class="built_in">echo</span> <span class="string">"<span class="variable">$name</span>.<span class="variable">$oldext</span>====&gt;<span class="variable">$name</span>.<span class="variable">$newext</span>"</span></span><br><span class="line">	<span class="keyword">done</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"all files has been modified"</span></span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -380,8 +380,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/09/16/上传文件到github/" rel="next" title="上传文件到github">
-                <i class="fa fa-chevron-left"></i> 上传文件到github
+              <a href="/2019/09/22/算法刷题积累/" rel="next" title="算法刷题积累">
+                <i class="fa fa-chevron-left"></i> 算法刷题积累
               </a>
             
           </div>
@@ -389,10 +389,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/09/28/shell脚本批量修改文件后缀名/" rel="prev" title="shell脚本批量修改文件后缀名">
-                shell脚本批量修改文件后缀名 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>

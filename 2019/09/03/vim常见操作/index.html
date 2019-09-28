@@ -105,18 +105,18 @@
 
 
 
-<meta name="description" content="保存退出1:wq  撤销上一步操作1u  删除1-6行1:1,6d  删除选中内容1v，然后移动光标，移动到的地方都会被选中，选好之后按d  删除光标所在的单词1daw  定义自动补充,快捷1:iab pr print()  删除括号里面的内容12di(di&amp;#123;		删除光标所在大括号里面的所有的内容  第7-9行同时向右缩进1:7,9&amp;gt;  光标各种跳转123456gg	到文件开头G">
+<meta name="description" content="复制vim打开文件中a.txt的所有内容到另一个vim打开的文件b.txt123用vim打开b.txt,然后:r! cat /root/a.txt不在同一文件夹的时候，注意写a.txt的绝对路径  复制vim打开文件中的所有内容到外部可粘贴1gg&quot;+yG  保存退出1:wq  撤销上一步操作1u  删除1-6行1:1,6d  删除选中内容1v，然后移动光标，移动到的地方都会被选中，选好之后按d">
 <meta name="keywords" content="记录 分享">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vim常见操作">
 <meta property="og:url" content="http://yoursite.com/2019/09/03/vim常见操作/index.html">
 <meta property="og:site_name" content="QHYi&#39;s Blog">
-<meta property="og:description" content="保存退出1:wq  撤销上一步操作1u  删除1-6行1:1,6d  删除选中内容1v，然后移动光标，移动到的地方都会被选中，选好之后按d  删除光标所在的单词1daw  定义自动补充,快捷1:iab pr print()  删除括号里面的内容12di(di&amp;#123;		删除光标所在大括号里面的所有的内容  第7-9行同时向右缩进1:7,9&amp;gt;  光标各种跳转123456gg	到文件开头G">
+<meta property="og:description" content="复制vim打开文件中a.txt的所有内容到另一个vim打开的文件b.txt123用vim打开b.txt,然后:r! cat /root/a.txt不在同一文件夹的时候，注意写a.txt的绝对路径  复制vim打开文件中的所有内容到外部可粘贴1gg&quot;+yG  保存退出1:wq  撤销上一步操作1u  删除1-6行1:1,6d  删除选中内容1v，然后移动光标，移动到的地方都会被选中，选好之后按d">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-09-22T13:22:11.892Z">
+<meta property="og:updated_time" content="2019-09-28T04:48:11.467Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vim常见操作">
-<meta name="twitter:description" content="保存退出1:wq  撤销上一步操作1u  删除1-6行1:1,6d  删除选中内容1v，然后移动光标，移动到的地方都会被选中，选好之后按d  删除光标所在的单词1daw  定义自动补充,快捷1:iab pr print()  删除括号里面的内容12di(di&amp;#123;		删除光标所在大括号里面的所有的内容  第7-9行同时向右缩进1:7,9&amp;gt;  光标各种跳转123456gg	到文件开头G">
+<meta name="twitter:description" content="复制vim打开文件中a.txt的所有内容到另一个vim打开的文件b.txt123用vim打开b.txt,然后:r! cat /root/a.txt不在同一文件夹的时候，注意写a.txt的绝对路径  复制vim打开文件中的所有内容到外部可粘贴1gg&quot;+yG  保存退出1:wq  撤销上一步操作1u  删除1-6行1:1,6d  删除选中内容1v，然后移动光标，移动到的地方都会被选中，选好之后按d">
 
 
 
@@ -354,7 +354,11 @@
       
 
       
-        <h3 id="保存退出"><a href="#保存退出" class="headerlink" title="保存退出"></a>保存退出</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">:wq</span></span><br></pre></td></tr></table></figure>
+        <h3 id="复制vim打开文件中a-txt的所有内容到另一个vim打开的文件b-txt"><a href="#复制vim打开文件中a-txt的所有内容到另一个vim打开的文件b-txt" class="headerlink" title="复制vim打开文件中a.txt的所有内容到另一个vim打开的文件b.txt"></a>复制vim打开文件中a.txt的所有内容到另一个vim打开的文件b.txt</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">用vim打开<span class="selector-tag">b</span><span class="selector-class">.txt</span>,然后</span><br><span class="line">:r! cat /root/<span class="selector-tag">a</span>.txt</span><br><span class="line">不在同一文件夹的时候，注意写<span class="selector-tag">a</span>.txt的绝对路径</span><br></pre></td></tr></table></figure>
+
+<h3 id="复制vim打开文件中的所有内容到外部可粘贴"><a href="#复制vim打开文件中的所有内容到外部可粘贴" class="headerlink" title="复制vim打开文件中的所有内容到外部可粘贴"></a>复制vim打开文件中的所有内容到外部可粘贴</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gg<span class="string">"+yG</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="保存退出"><a href="#保存退出" class="headerlink" title="保存退出"></a>保存退出</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">:wq</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="撤销上一步操作"><a href="#撤销上一步操作" class="headerlink" title="撤销上一步操作"></a>撤销上一步操作</h3><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">u</span></span><br></pre></td></tr></table></figure>
 
@@ -487,7 +491,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -524,7 +528,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#保存退出"><span class="nav-number">1.</span> <span class="nav-text">保存退出</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#撤销上一步操作"><span class="nav-number">2.</span> <span class="nav-text">撤销上一步操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除1-6行"><span class="nav-number">3.</span> <span class="nav-text">删除1-6行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除选中内容"><span class="nav-number">4.</span> <span class="nav-text">删除选中内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除光标所在的单词"><span class="nav-number">5.</span> <span class="nav-text">删除光标所在的单词</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#定义自动补充-快捷"><span class="nav-number">6.</span> <span class="nav-text">定义自动补充,快捷</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除括号里面的内容"><span class="nav-number">7.</span> <span class="nav-text">删除括号里面的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第7-9行同时向右缩进"><span class="nav-number">8.</span> <span class="nav-text">第7-9行同时向右缩进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#光标各种跳转"><span class="nav-number">9.</span> <span class="nav-text">光标各种跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查找字符串，例如查找test"><span class="nav-number">10.</span> <span class="nav-text">查找字符串，例如查找test</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#复制vim打开文件中a-txt的所有内容到另一个vim打开的文件b-txt"><span class="nav-number">1.</span> <span class="nav-text">复制vim打开文件中a.txt的所有内容到另一个vim打开的文件b.txt</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#复制vim打开文件中的所有内容到外部可粘贴"><span class="nav-number">2.</span> <span class="nav-text">复制vim打开文件中的所有内容到外部可粘贴</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#保存退出"><span class="nav-number">3.</span> <span class="nav-text">保存退出</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#撤销上一步操作"><span class="nav-number">4.</span> <span class="nav-text">撤销上一步操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除1-6行"><span class="nav-number">5.</span> <span class="nav-text">删除1-6行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除选中内容"><span class="nav-number">6.</span> <span class="nav-text">删除选中内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除光标所在的单词"><span class="nav-number">7.</span> <span class="nav-text">删除光标所在的单词</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#定义自动补充-快捷"><span class="nav-number">8.</span> <span class="nav-text">定义自动补充,快捷</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除括号里面的内容"><span class="nav-number">9.</span> <span class="nav-text">删除括号里面的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第7-9行同时向右缩进"><span class="nav-number">10.</span> <span class="nav-text">第7-9行同时向右缩进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#光标各种跳转"><span class="nav-number">11.</span> <span class="nav-text">光标各种跳转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查找字符串，例如查找test"><span class="nav-number">12.</span> <span class="nav-text">查找字符串，例如查找test</span></a></li></ol></div>
             
 
           </div>
